@@ -1,0 +1,530 @@
+*{  margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+header h4 {
+    padding-left: 3vw;
+    text-align: center;
+    font-size: 26px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    text-align: center;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-content: end;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+
+}
+
+header nav {
+    justify-self: end;
+    background-color: rgb(158, 29, 29);
+    width: 100%;
+    height: 6vh;
+    text-align: center;
+    align-items: center;
+}
+
+header nav ul a li {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-content: end;
+    padding-top: 1.5vh;
+    font-size: 20px;
+}
+
+
+.caixa h3 {
+    background-color: rgb(158, 29, 29);
+    border-radius: 5px 5px 0 0;
+    border-top: 5px;
+    width: 100%;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    align-content: center;
+
+
+}
+.caixa {
+    background-color: #ffffff; /* cor de fundo branca */
+    border: 1px solid #ffffff; /* borda preta com 1px de espessura */
+    border-radius: 5px; /* bordas arredondadas */
+    width: 40vw;
+    height: 125vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: start;
+
+}
+
+.caixa2 {
+    background-color: #ffffff; /* cor de fundo branca */
+    border: 1px solid #ffffff; /* borda preta com 1px de espessura */
+    border-radius: 5px; /* bordas arredondadas */
+    width: 24vw;
+    height: 175vh;
+    margin: 0 auto;
+    margin-top: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: start;
+    padding: 1vh
+
+
+}
+
+.caixa3 {
+    background-color: #ffffff; /* cor de fundo branca */
+    border: 1px solid #ffffff; /* borda preta com 1px de espessura */
+    border-radius: 5px; /* bordas arredondadas */
+    width: 60vw;
+    height: 150vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+   
+
+}
+
+.video {
+    width: 250px;
+    height: 150px;
+    padding: 1vh;
+    border-top: #D9D9D9;
+    border-bottom: #D9D9D9;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vh;
+}
+
+.content {
+    height: 26vh;
+    width: 36vw;
+    border-radius: 30px;
+    background-image: url(https://sportshub.cbsistatic.com/i/2021/03/17/a553f4bf-5da0-4cf2-8414-935a9e8bb45a/oko-thieef-of-crowns-1195127.jpg);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.content h2 {
+    color: white;
+    font-size:18px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+}
+
+.artig3 {
+    height: 26vh;
+    width: 36vw;
+    border-radius: 30px;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_606439-MLB53384784263_012023-O.webp);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.artig3 h2 {
+    color: white;
+    font-size:18px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+}
+
+.artig4 {
+    height: 26vh;
+    width: 36vw;
+    border-radius: 30px;
+    background-image: url(https://images.ctfassets.net/s5n2t79q9icq/3igpaHJHUt5BQ9AYqrqoza/b2f42b2cac5ee52ef366323f7b229ba7/nicol-bolas-1920.jpg?q=80);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.artig4 h2 {
+    color: white;
+    font-size:18px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+}
+
+.artig5 {
+    height: 26vh;
+    width: 36vw;
+    border-radius: 30px;
+    background-image: url(https://images.ctfassets.net/s5n2t79q9icq/3URVR8Rolq47QvQ4OqdKnr/7b7a40cf8401ad2bfda341099c3a7876/innistrad-1920.jpg?w=1920&q=70&fm=webp);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.artig5 h2 {
+    color: white;
+    font-size:18px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+}
+
+.deck1 {
+    height: 26vh;
+    width: 56.5vw;
+    border-radius: 30px;
+    background-image: url(https://media.wizards.com/2015/images/daily/Zoomed_912UAJho6r.jpg);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.deck1 h2 {
+    color: white;
+    font-size:28px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+
+}
+
+.deck2 {
+    height: 26vh;
+    width: 56.5vw;
+    border-radius: 30px;
+    background-image: url(https://cdn11.bigcommerce.com/s-641uhzxs7j/images/stencil/1280x1280/products/317494/343436/ASTX23R__40607.1620278198.jpg?c=1);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.deck2 h2 {
+    color: white;
+    font-size:38px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+
+}
+
+.deck3 {
+    height: 26vh;
+    width: 56.5vw;
+    border-radius: 30px;
+    background-image: url(https://assets.moxfield.net/cards/card-XdnlM-art_crop.webp);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.deck3 h2 {
+    color: white;
+    font-size:38px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+
+}
+
+.deck4 {
+    height: 26vh;
+    width: 56.5vw;
+    border-radius: 30px;
+    background-image: url(https://images.ctfassets.net/ryplwhabvmmk/5IK87XcPqPOhFBKOoDYXjr/f4801d7db5133b3da4a90afd6da860e0/Purphoros_God_of_the_Forge.png);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.deck4 h2 {
+    color: white;
+    font-size:38px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+}
+
+.deck5 {
+    height: 26vh;
+    width: 56.5vw;
+    border-radius: 30px;
+    background-image: url(https://i.redd.it/d0gqkzfidsn41.png);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.deck5 h2 {
+    color: white;
+    font-size:38px;
+    display: auto;
+    width: 36vw;
+    height: 26vh;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    align-items: end;
+    padding: 2vh;
+    text-decoration: none;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.noticiaPrinc {
+    height: 45vh;
+    width: 90vw;
+    border-radius: 30px;
+    background-image: url(https://images.ctfassets.net/s5n2t79q9icq/3igpaHJHUt5BQ9AYqrqoza/b2f42b2cac5ee52ef366323f7b229ba7/nicol-bolas-1920.jpg?q=80);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.noticiaPrinc a {
+    text-decoration: none;
+
+}
+
+
+.noticiaPrinc h1 {
+    color: white;
+    display: flex;
+    padding: 2vw;
+    align-self: start;
+    width: 90vw;
+    height: 3vh;
+    background-color: rgba( 0, 0, 0, 0.4);
+    border-radius: 30px 30px 0 0;
+
+
+}
+
+.noticiaPrinc h2 {
+    color: white;
+    display: flex;
+    padding: 2vw;
+    align-self: end;
+    width: 90vw;
+    height: 37.5vh;
+    align-items:end;
+    background-color: rgba( 0, 0, 0, 0.4);
+    border-radius: 0 0 30px 30px;
+    text-align: end;
+    
+
+
+}
+
+.EdHArtg {
+    display: flex;
+    flex-direction:row;
+    text-decoration: none;
+}
+
+.EdHArtg a {
+    text-decoration: none;
+}
+
+.EdHArtg img {
+    height: 24vh;
+    width: 16vw;
+    border-radius: 30px;
+}
+
+.EdHArtg h2 {
+    font-size: 14px;
+    margin-bottom: 6vh;
+    margin-top: 2vh;
+    text-decoration: none;
+    color: black;
+    background-color: none;
+}
+
+.EdHArtg h3 {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba( 0, 0, 0, 0);
+    
+}
+
+.DominariaArtg {
+    display: flex;
+    flex-direction:row;
+    text-decoration: none;
+}
+
+.DominariaArtg a {
+    text-decoration: none;
+}
+
+.DominariaArtg img {
+    height: 24vh;
+    width: 16vw;
+    border-radius: 30px;
+}
+
+.DominariaArtg h2 {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 6vh;
+    margin-top: 2vh;
+    text-decoration: none;
+    color: black;
+    background-color: none;
+}
+
+.DominariaArtg h3 {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba( 0, 0, 0, 0);
+    
+}
+
+.InnistradArtg {
+    display: flex;
+    flex-direction:row;
+    text-decoration: none;
+}
+
+.InnistradArtg a {
+    text-decoration: none;
+}
+
+.InnistradArtg img {
+    height: 24vh;
+    width: 16vw;
+    border-radius: 30px;
+}
+
+.innistradArtg h2 {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 6vh;
+    margin-top: 2vh;
+    text-decoration: none;
+    color: black;
+    background-color: none;
+}
+
+.InnistradArtg h3 {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba( 0, 0, 0, 0);
+    
+}
+
+.Escrita {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: start;
+    align-content: start;
+  
+}
+
+.spaceNot {
+    padding: 3vh;
+    border-top: 1px solid #D9D9D9;
+
+}
